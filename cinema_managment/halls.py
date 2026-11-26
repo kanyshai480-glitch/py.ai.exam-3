@@ -30,6 +30,10 @@ def add_hall(halls):
     print(f"Зал '{name}' успешно добавлен!")
 
 
+
+    print(f"Вместимость зала: {rows * seats} мест.")
+
+
 def show_halls(halls):
     if not halls:
         print("Список залов пока пуст.")
@@ -45,4 +49,4 @@ def show_halls(halls):
             f"Название: {hall['name']} | "
             f"Вместимость: {capacity} мест"
         )
-        
+
