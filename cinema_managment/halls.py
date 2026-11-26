@@ -40,6 +40,7 @@ def show_halls(halls):
         return
 
     print("\nСписок доступных залов:")
+    print(f"Всего залов: {len(halls)}")
 
     for hall in halls:
         capacity = hall["rows"] * hall["seats_per_row"]
